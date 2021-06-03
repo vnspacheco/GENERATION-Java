@@ -20,7 +20,7 @@ public class Exercício4 {
 			System.out.printf("Seu número é par, e a raiz quadrada dele é: %.2f", raizQuadrada);
 		}
 		else {
-			elevadoAoQuadrado = valor * valor;
+			elevadoAoQuadrado = Math.pow(valor, 2);
 			System.out.println("Seu número é ímpar, e elevado ao quadrado é: " + elevadoAoQuadrado);
 		}
 		

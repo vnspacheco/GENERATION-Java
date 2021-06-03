@@ -7,14 +7,14 @@ public class Exercício2 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		int maior, medio, menor;
+		int maior, medio, menor, n1, n2, n3;
 		
 		System.out.println("Digite o primeiro valor: ");
-		int n1 = input.nextInt();
+		n1 = input.nextInt();
 		System.out.println("Digite o segundo valor: ");
-		int n2 = input.nextInt();
+		n2 = input.nextInt();
 		System.out.println("Digite o terceiro valor: ");
-		int n3 = input.nextInt();
+		n3 = input.nextInt();
 		
 		if (n1 > n2 && n1 > n3) {
 			maior = n1;
@@ -49,8 +49,8 @@ public class Exercício2 {
 				menor = n2;
 			}
 		}
-			
-		System.out.println("Menor: " + menor + "\nMédio: " + medio + "\nMaior: " + maior);
+		
+		System.out.printf("Menor: %d\nMédio: %d\nMaior: %d\n", menor, medio, maior);
 		
 		input.close();
 	}
